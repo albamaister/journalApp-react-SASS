@@ -8,17 +8,19 @@ export const LoginScreen = () => {
             <form>
                 <input
                     type='text'
-                    placeholder='email'
+                    placeholder='Email'
                     name='email'
                     className='auth__input'
                     autoComplete='off'
                 />
                 <input
                     type='password'
-                    placeholder='password'
+                    placeholder='Password'
                     name='password'
+                    className='auth__input'
+                    autoComplete='off'
                 />
-                <button className='btn btn-primary' type='submit'>Login</button> 
+                <button className='btn btn-primary btn-block' type='submit'>Login</button> 
                 <hr/>
                 <div className='auth__social-networks'>
                     <p>Login with social networks</p>
